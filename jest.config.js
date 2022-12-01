@@ -9,6 +9,7 @@ module.exports = {
   moduleFileExtensions: ['ts', 'js', 'json'],
   collectCoverageFrom: [
     'src/**/*.{js,ts}',
+    '!src/**/*.solve.{js,ts}',
     'commands/**/*.{js,ts}',
     '!**/database/**',
     '!**/node_modules/**',
