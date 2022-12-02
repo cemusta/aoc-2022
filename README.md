@@ -13,20 +13,29 @@ For information about Advent of Code check here: <https://adventofcode.com/2022/
 
 ## Progress
 
-2 out of 50 stars.
+4 out of 50 stars.
 
-![progress bar 4 percent](https://progress-bar.dev/4)
+![progress bar 8 percent](https://progress-bar.dev/4)
 
 ## Running locally
 
 Ran and tested with node v16, start by installing packages with
 
-`> npm i`
+```bash
+# install packages
+npm install
+# install ts-node globally
+npm i ts-node -g
+```
 
 You can run solutions with
 
-`> ts-node ./src/day1`
+```bash
+ts-node ./src/day1.solve.ts
+```
 
 You can start tests with
 
-`> npm test`
+```bash
+npm test
+```
